@@ -31,7 +31,7 @@
     </div>
     <div class="col-4">
     <div class="card text-light o-hidden h-100" style="background:rgb(28, 95, 209)">
-        <a class="card-footer text-dark " href="{{route('events')}}">
+        <a class="card-footer text-dark " href="/events">
           <span class="float-left text-light">Click para ir a calendario</span>
         </a>
         <div class="card-body">
