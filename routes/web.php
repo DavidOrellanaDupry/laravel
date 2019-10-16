@@ -37,7 +37,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/biblioteca', 'HomeController@biblioteca')->name('biblioteca');
 
-Route::resource('/events','EventController');
+Route::resource('/events','EventController')->name('events');
 Route::get('/addeventurl','EventController@display');
 Route::post('/addeventurl','EventController@guardar');
 
